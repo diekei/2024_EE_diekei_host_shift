@@ -1,10 +1,10 @@
-#### INTRODUCTION ####
+### INTRODUCTION #####
 
 # Welcome. For the description of the project please visit: https://github.com/diekei/2023_ENS_diekei_host_shift
 # Article is available at: 
 
 
-#### LIBRARY ####
+### LIBRARY #####
 
 library(dplyr)
 library(car)
@@ -13,7 +13,7 @@ library(plotly)
 library(ggtext)
 
 
-#### DATA ####
+### DATA #####
 
 # data available at 2023_ENS_datavis_host_acceptance.csv
 # abbreviations explanation:
@@ -46,7 +46,7 @@ str(lac.v)
 lac.v <- lac.v %>% mutate_at(c('race', 'sex', 'food', 'test'), as.factor)
 
 
-#### ANALYSIS - HOST ACCEPTANCE - FISHER EXACT PROBABILITY TEST ####
+### ANALYSIS - HOST ACCEPTANCE - FISHER EXACT PROBABILITY TEST #####
 
 lhac.fet <- matrix(c(5, 4, 3, 0, 1, 2), 3, 2, 
                    dimnames = list(c("d1", "d2", "d3"), c("accept", "null")))
@@ -57,7 +57,7 @@ fisher.test(lhac.fet, alternative = "two.sided", conf.int = T, conf.level = 0.95
 fisher.test(mhac.fet, alternative = "two.sided", conf.int = T, conf.level = 0.95)
 
 
-#### ANALYSIS - LEAF AREA CONSUMED - KRUSKAL-WALLIS TEST ####
+### ANALYSIS - LEAF AREA CONSUMED - KRUSKAL-WALLIS TEST #####
 
 lac2 <- na.omit(lac)
 lac2$group <- paste(lac2$food, "_", lac2$test)
@@ -68,7 +68,7 @@ pairwise.wilcox.test(lac2$area, lac2$group,
                      p.adjust.method = "BH", exact = FALSE)
 
 
-#### VISUALISATION - HOST ACCEPTANCE ####
+### VISUALISATION - HOST ACCEPTANCE #####
 
 hac.labs <- data.frame(label = c("L-race", "M-race"), face = c("italic","italic"))
 
@@ -100,7 +100,7 @@ hac.plot
 ggsave(filename = "Figure_3.png", width = 3.8, height = 5, device='png', dpi=1200)
 
 
-#### VISUALISATION - LEAF AREA CONSUMED ####
+### VISUALISATION - LEAF AREA CONSUMED #####
 
 lac.labs <- c("L-race (3\u2640 2\u2642)", "M-race (6\u2640 9\u2642)")
 names(lac.labs) <- c("lrace", "mrace")
