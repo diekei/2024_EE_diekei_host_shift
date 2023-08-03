@@ -97,7 +97,7 @@ hac.plot <- ggplot(hac, aes(x = retain, y = alt)) +
             color = c("black","black"), parse = TRUE)
 
 hac.plot
-ggsave(filename = "Plots/hac_dieleu.png", width = 3.8, height = 5, device='png', dpi=1200)
+ggsave(filename = "Figure_3.png", width = 3.8, height = 5, device='png', dpi=1200)
 
 
 #### VISUALISATION - LEAF AREA CONSUMED ####
@@ -122,4 +122,4 @@ lac.plot <- ggplot(lac.v, aes(x = test, y = area, fill = food)) +
         legend.position = "none")
 
 lac.plot
-ggsave(filename = "Plots/lac_dieleu.png", width = 5, height = 5, device='png', dpi=1200)
+ggsave(filename = "Figure_4.png", width = 5, height = 5, device='png', dpi=1200)
