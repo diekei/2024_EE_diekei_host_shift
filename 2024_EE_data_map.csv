@@ -1,0 +1,51 @@
+source,year,province,location,lat,lon,pop,type,host,count,confirmed,beetle,label,notes,lat_dd,lon_dd,elevation
+INT,2023,Central Sulawesi,Boyobaliase,"00¡56'50.95"" S","119¡50'55.92"" E",BBAL,host,Mikania,0,no,no,yes,NA,-0.947486111,119.8488667,82
+INT,2023,Central Sulawesi,Uwemanje,"00¡57'47.37"" S","119¡49'47.19"" E",UWEM,host,Coleus,0,no,no,yes,NA,-0.963158333,119.829775,416
+INT,2023,Central Sulawesi,Matantimali,"00¡57'24.58"" S","119¡48'38.37"" E",MATA,host,no,0,no,no,yes,NA,-0.956827778,119.8106583,752
+INT,2023,Central Sulawesi,Paneki,"00¡57'48.00"" S","119¡58'26.23"" E",PANK,host,no,0,no,no,yes,NA,-0.963333333,119.9739528,535
+INT,2023,Central Sulawesi,Wera,"01¡02'39.01"" S","119¡51'06.22"" E",WERA,host,Coleus,0,yes,no,yes,Salvia,-1.044169444,119.8517278,571
+INT,2023,Central Sulawesi,Tondo,"0¡49'52.5"" S","119¡52'56.6"" E",TOND,host,no,0,no,no,yes,NA,-0.83125,119.8823889,88
+INT,2023,Central Sulawesi,Nupa Bomba Uwentira,"00¡43'30.88"" S","120¡00'08.68"" E",NUBO1,beetle,Mikania,2,yes,yes,yes,NA,-0.725244444,120.0024111,896
+INT,2023,Central Sulawesi,Nupa Bomba Uwentira,"00¡43'36.87"" S","120¡00'31.93"" E",NUBO2,beetle,Mikania,5,yes,yes,yes,NA,-0.726908333,120.0088694,896
+INT,2023,Central Sulawesi,Toboli Uwentira,"00¡42'54.61"" S","120¡03'11.37"" E",TOBB,host,no,0,no,no,yes,TOBO,-0.715169444,120.0531583,573
+INT,2023,Central Sulawesi,Masigi,"00¡48'26.402"" S","120¡09'54.345"" E",KAMP,beetle,Mikania,1,yes,yes,no,MASG1,-0.807333889,120.1650958,28
+INT,2023,Central Sulawesi,Masigi,"00¡48'54.61"" S","120¡10'00.93"" E",MASG,beetle,Mikania,20,yes,yes,yes,MASG2,-0.815169444,120.166925,7
+INT,2023,Central Sulawesi,Masigi,"00¡48'50.03"" S","120¡08'27.14"" E",PAPU,host,Leucas,0,no,no,no,MASG3,-0.813897222,120.1408722,94
+INT,2023,Central Sulawesi,Masigi,"00¡48'24.85"" S","120¡08'08.75"" E",JOKA1,host,Leucas,0,yes,no,no,MASG4,-0.806902778,120.1357639,94
+INT,2023,Central Sulawesi,Pindolo,"02¡03'58.478"" S","120¡41'30.825"" E",PIND,beetle,Mikania,6,yes,yes,yes,NA,-2.066243889,120.6918958,512
+INT,2023,South Sulawesi,Masamba,"02¡34'25.752"" S","120¡25'02.022"" E",MASA,host,Leucas,0,yes,no,yes,NA,-2.57382,120.4172283,39
+INT,2023,South Sulawesi,Siwa,"03¡42'16.872"" S","120¡24'59.502"" E",SIWA,beetle,Mikania,8,yes,yes,yes,NA,-3.704686667,120.4165283,13
+INT,2023,South Sulawesi,Palopo,"02¡59'56.46"" S","120¡09'59.77"" E",PALO1,host,Leucas,0,yes,no,yes,NA,-2.999016667,120.1666028,66
+INT,2023,South Sulawesi,Rantepao,"03¡00'55.73"" S","119¡53'53.358"" E",RANT2,beetle,Coleus,1,yes,yes,yes,NA,-3.015480556,119.898155,865
+INT,2023,South Sulawesi,Rantepao,"02¡59'20.37"" S","119¡53'53.358"" E",RANT1,beetle,Coleus,10,yes,yes,yes,NA,-2.988991667,119.898155,797
+INT,2023,South Sulawesi,Rantepao,"02¡59'20.37"" S","119¡52'32.83"" E",RANT3,host,Coleus,0,yes,no,yes,NA,-2.988991667,119.8757861,912
+INT,2023,South Sulawesi,Battang,"02¡57'21.342"" S","120¡04'09.83"" E",BATG,beetle,Coleus,7,yes,yes,yes,NA,-2.955928333,120.0693972,1138
+INT,2023,South Sulawesi,Masamba,"02¡34'21.888"" S","120¡25'07.158"" E",MINA,beetle,Leucas,7,yes,yes,yes,NA,-2.572746667,120.418655,39
+INT,2023,Central Sulawesi,Petapa,"00¡46'31.39"" S","120¡07'32.53"" E",PETA,beetle,Leucas,20,yes,yes,yes,NA,-0.775386111,120.1257028,5
+INT,2021,Central Sulawesi,Balanga Bunta,"0¡45'39.9"" S","122¡27'34.8"" E",BB,host,Leucas,0,no,no,yes,NA,-0.761083333,122.4596667,209
+INT,2021,Central Sulawesi,Poh Pagimana,"0¡46'35.6"" S","122¡51'05.1"" E",PP,host,Leucas,0,no,no,yes,NA,-0.776555556,122.8514167,137
+INT,2021,Central Sulawesi,Kampal Parigi,"0¡48'28.4"" S","120¡09'54.0"" E",KP,beetle,Leucas,6,yes,yes,yes,loc2,-0.807888889,120.165,28
+INT,2021,Central Sulawesi,Kampal Parigi,"0¡48'28.4"" S","120¡09'54.0"" E",KP,host,Mikania,0,no,no,no,loc2,-0.807888889,120.165,28
+INT,2021,Central Sulawesi,Nupa Bomba Tanantovea,"0¡43'43.8"" S","119¡59'15.9"" E",NB1,host,Mikania,0,no,no,yes,NA,-0.728833333,119.98775,765
+INT,2021,Central Sulawesi,Kampak Masigi,"0¡48'47.1"" S","120¡09'57.6"" E",KM1,host,Mikania,0,no,no,no,loc1,-0.813083333,120.166,7
+INT,2021,Central Sulawesi,Kampak Masigi,"0¡48'55.5"" S","120¡09'54.0"" E",KM2,beetle,Mikania,15,yes,yes,yes,loc3,-0.815416667,120.165,28
+INT,2021,Central Sulawesi,Kampak Masigi,"0¡49'04.5"" S","120¡09'39.6"" E",KM3,host,Mikania,0,no,no,no,loc4,-0.817916667,120.161,28
+INT,2021,Central Sulawesi,Nupa Bomba Tanantovea,"0¡44'18.0"" S","119¡54'21.0"" E",NB2,host,Leucas,0,no,no,yes,NA,-0.738333333,119.9058333,250
+INT,2021,Central Sulawesi,Kampak Masigi,"0¡48'54.0"" S","120¡9'52.0"" E",KM4,host,Leucas,0,no,no,no,NA,-0.815,120.1644444,28
+INT,2021,Central Sulawesi,Kayumalue Ngapa,"0¡45'10.4"" S","119¡52'14.9"" E",KN,host,Leucas,0,no,no,yes,NA,-0.752888889,119.8708056,37
+INT,2021,Central Sulawesi,Jono Kalora,"0¡47'34.4"" S","120¡07'52.0"" E",JK,host,Leucas,0,yes,no,no,NA,-0.792888889,120.1311111,43
+EXT,2011,South Sulawesi,Rantepao,"02¡59'15"" S","119¡53'24"" E",RANT4,host,Coleus,0,yes,yes,no,Matsubayashi et al. 2015; 2016,-2.9875,119.89,797
+EXT,2011,East Sulawesi,Tinokari,"03¡39'51"" S","121¡02'23"" E",TINO,host,Mikania,0,yes,yes,yes,Matsubayashi et al. 2015; 2016,-3.664166667,121.0397222,69
+EXT,2011,North Sulawesi,Manado,"01¡22'29.6"" N","124¡54'34.4"" E",MANA,host,Coleus,0,yes,yes,yes,Matsubayashi et al. 2015; 2016,1.374888889,124.9095556,569
+INT,2023,South Sulawesi,Bulete,"03¡42'29.3"" S","120¡22'46.2"" E",BULE,host,Leucas,0,no,no,yes,NA,-3.708138889,120.3795,23
+INT,2023,South Sulawesi,Palopo,"03¡01'23.5"" S","120¡09'52.9"" E",PALO2,host,Coleus,0,no,no,yes,NA,-3.023194444,120.1646944,258
+INT,2023,South Sulawesi,Bonglo,"03¡03'27.2"" S","120¡06'17.0"" E",BONG,host,no,0,no,no,yes,NA,-3.057555556,120.1047222,779
+INT,2023,South Sulawesi,Pantilang,"03¡06'10.9"" S","120¡03'00.2"" E",PANT,host,no,0,no,no,yes,NA,-3.103027778,120.0500556,576
+INT,2023,South Sulawesi,Salu Bua,"03¡06'10.9"" S","120¡01'39.7"" E",SALU,host,no,0,no,no,yes,NA,-3.103027778,120.0276944,604
+INT,2023,Central Sulawesi,Bambalemo,"0¡48'11.6"" S","120¡08'44.3"" E",BAMB,host,Leucas,0,yes,no,no,NA,-0.803222222,120.1456389,28
+INT,2023,Central Sulawesi,Bambalemo,"0¡48'08.0"" S","120¡08'42.8"" E",BAMB,host,Mikania,0,no,no,no,NA,-0.802222222,120.1452222,18
+INT,2023,Central Sulawesi,Jono Kalora,"0¡47'59.0"" S","120¡08'16.8"" E",JOKA2,host,Leucas,0,yes,no,no,NA,-0.799722222,120.138,43
+INT,2023,Central Sulawesi,Toboli,"0¡42'37.7"" S","120¡05'42.4"" E",TOBO,host,Leucas,0,yes,no,yes,NA,-0.710472222,120.0951111,35
+INT,2023,South Sulawesi,Kasintuwu,"02¡16'36.4"" S","120¡46'33.1"" E",KASI1,host,no,0,no,no,yes,NA,-2.276777778,120.7758611,1272
+INT,2023,South Sulawesi,Kasintuwu,"02¡18'32.6"" S","120¡46'24.2"" E",KASI2,host,Coleus,0,no,no,yes,NA,-2.309055556,120.7733889,1045
+INT,2023,South Sulawesi,Olang,"03¡15'28.8"" S","120¡19'55.9"" E",OLAN,host,no,0,no,no,yes,NA,-3.258,120.3321944,20
