@@ -7,6 +7,7 @@ Data and code repository for 'Pervasive generalist behaviour of a specialist phy
 - '2024_EE_data_host_survivorship.csv': data for testing larval host survivorship
 - '2024_EE_data_devstage.csv': data for testing developmental difference from larval host survivorship assay
 - '2024_EE_data_morphology.csv': data for morphological difference between populations in 2021
+- '2024_EE_data_map.csv': geographical information data for the visited sites in 2024
 
 ## Code
 - '2024_EE_script.R': main statistical analysis and visualisation code in R
