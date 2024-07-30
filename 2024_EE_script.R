@@ -185,7 +185,7 @@ pref.summary <- data.pref %>%
     mik = mean(mik, na.rm = TRUE),
     leu = mean(leu, na.rm = TRUE),
     col = mean(col, na.rm = TRUE),
-    .groups = 'drop' # This ensures that the summarised dataframe is ungrouped afterwards
+    .groups = 'drop'
   )
 
 plot.pref <- ggtern(data.pref %>% filter(!is.na(rmik) & !is.na(rleu) & !is.na(rcol)), aes(x = mik, y = col, z = leu)) +
