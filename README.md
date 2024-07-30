@@ -1,4 +1,4 @@
-# 2023_ENS_diekei_host_shift
+# 2024_EE_diekei_host_shift
 Data and code repository for 'Pervasive generalist behaviour of a specialist phytophagous ladybird beetle, Henosepilachna diekei in Sulawesi' submitted to Ecology and Evolution
 
 ## Data
